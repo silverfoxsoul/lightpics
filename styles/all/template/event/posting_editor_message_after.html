@@ -1,0 +1,31 @@
+{% if FORUM_ID gt 0 %}
+
+<div style= "line-height: 1.6em;">
+
+<div style="font-weight: 500; color: #D8C7B4; margin: 9px 0px 8px 30px;">
+{% if S_USER_LANG eq 'fr' %}
+Comment poster une image sur le forum en quatre clics de souris.
+{% else %} 
+How to post an image on the forum with four mouse clicks.
+{% endif %}
+</div>
+
+{% if S_USER_LANG eq 'fr' %}
+1 - Cliquez sur <input type="button" class="button2" value="Importer des images" title="" />  ou  
+sur <button type="button" class="button button-icon-only" title="Importer des images"><i class="icon fa-cloud-upload fa-fw" aria-hidden="true"></i></button> dans le menu de l'éditeur de texte.<br>
+2 - Cliquez sur <span style="color: #FFFFFF">Parcourir votre ordinateur</span> ou sur <span style="color: #FFFFFF">Ajouter des URL d'images</span>.<br>
+3 - Cliquez sur <span style="color: #FFFFFF">Envoyer</span> après avoir sélectionné votre fichier image ou avoir fourni son URL.<br>
+4 - Cliquez sur <input style="color: #FFFFFF; background-image: none; background-color: #008000;" type="button" class="button2" value=" Envoyer " title="" />.<br>
+ &nbsp; &nbsp; &nbsp; La fenêtre ’pop-up’ se referme et un lien [img] est généré à la fin de la zone d’édition.<br>
+{% else %} 
+1 - Click on <input type="button" class="button2" value="Importer des images" title="" /> or 
+on <button type="button" class="button button-icon-only" title="Importer des images"><i class="icon fa-cloud-upload fa-fw" aria-hidden="true"></i></button> in the text editor menu.<br>
+2 - Click on <span style="color: #FFFFFF">Parcourir votre ordinateur</span> or on <span style="color: #FFFFFF">Ajouter des URL d'images</span>.<br>
+3 - Click on <span style="color: #FFFFFF">Envoyer</span> after selecting your image file or providing its URL.<br>
+4 - Click on <input style="color: #FFFFFF; background-image: none; background-color: #008000;" type="button" class="button2" value=" Envoyer " title="" />.<br>
+ &nbsp; &nbsp; &nbsp; The pop-up window closes and a [img] link is generated at the end of the edit box.<br>
+{% endif %}
+
+</div>
+
+{% endif %}
