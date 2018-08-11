@@ -1,5 +1,4 @@
 # lightpics
-<br>
 <h2>Installation</h2>
 1. Download the latest release.<br>
 2. In the ext directory of your phpBB board, create a new directory named silverfox (if it does not already exist).<br>
