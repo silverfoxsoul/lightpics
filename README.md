@@ -1,6 +1,7 @@
 # lightpics
 <h2>Installation</h2>
 1. Download the latest release.<br>
+https://github.com/silverfoxsoul/lightpics/raw/master/silverfox_lightpics.zip <br>
 2. In the ext directory of your phpBB board, create a new directory named silverfox (if it does not already exist).<br>
 3. Copy the lightpics directory to phpBB/ext/silverfox/<br>
 4. Navigate in the ACP to Customise -> Manage extensions.<br>
