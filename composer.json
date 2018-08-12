@@ -1,0 +1,29 @@
+{
+   "name": "silverfox/lightpics",
+   "type": "phpbb-extension",
+   "description": "Ajoute le fichier pup.js de chevereto pour l'hébergeur d'images lightpics et affiche des messages d'aide à l'utilisation de lightpics.",
+   "homepage": "https://github.com/silverfoxsoul/lightpics",
+   "version": "1.0.0",
+   "time": "2018-08-12",
+   "license": "GPL-3.0",
+   "authors": [{
+         "name": "silverfox",
+         "username": "silverfox",
+         "homepage": "https://github.com/silverfoxsoul",
+         "role": "developer"
+      }],
+   "require": {
+      "php": ">=5.3.3"
+   },
+   "extra": {
+      "display-name": "lightpics",
+      "soft-require": {
+            "phpbb/phpbb": ">=3.1.x"
+      },
+      "version-check": {
+         "host": "",
+         "directory": "",
+         "filename": ""
+      }
+   }
+}
