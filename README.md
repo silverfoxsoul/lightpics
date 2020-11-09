@@ -1,5 +1,5 @@
 # lightpics
-This PHPBB extension adds chevereto's javascript pup.js file to provide external downloading of an image on the lightpics.net hosting site.<br>
+This PHPBB (ver. 3.1, 3.2 or 3.3) extension adds chevereto's javascript pup.js file to provide external downloading of an image on the lightpics.net hosting site.<br>
 It also displays help messages for using lightpics.<br>
 <h2>Installation</h2>
 1. <a href="https://github.com/silverfoxsoul/lightpics/raw/master/silverfox_lightpics.zip">Download the latest release.</a><br>
